@@ -8,31 +8,18 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'The Trading Developer',
   tagline: 'A software developer\'s journey into equity trading',
-  favicon: 'img/favicon.ico',
-
-  // Set the production url of your site here
+  favicon: 'img/trading-developer-logo.png',
   url: 'https://simoneb.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/trading-blog',
   trailingSlash: false,
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: 'simoneb', // Usually your GitHub org/user name.
   projectName: 'trading-blog', // Usually your repo name.
-
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
   presets: [
     [
       'classic',
@@ -54,16 +41,16 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/trading-developer-logo.png',
       navbar: {
         title: 'The Trading Developer',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'logo',
+          src: 'img/trading-developer-logo.png',
         },
         items: [
           {
-            href: 'https://github.com/simoneb/trading-blog',
+            href: 'https://github.com/simoneb',
             label: 'GitHub',
             position: 'right',
           },
@@ -103,7 +90,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Simone Busoli. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Simone Busoli. Built with <a target="_blank" href="https://docusaurus.io/">Docusaurus</a>.`,
       },
       prism: {
         theme: lightCodeTheme,
