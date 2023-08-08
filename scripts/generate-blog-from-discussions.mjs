@@ -26,7 +26,7 @@ const {
   `
 query ($owner: String!, $name: String!) { 
   repository(owner: $owner name: $name) {
-    discussions(first: 100) {
+    discussions(first: 100 categoryId: "DIC_kwDOKEvAHc4CYb_r") {
       nodes {
         title
         labels(first: 100) {
@@ -34,10 +34,6 @@ query ($owner: String!, $name: String!) {
             name
           }
         }
-        category {
-          name
-        }
-        url
         createdAt
         body
       }
