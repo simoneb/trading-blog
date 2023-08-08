@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktrading_blog=self.webpackChunktrading_blog||[]).push([[9333],{1419:a=>{a.exports=JSON.parse('{"label":"hola","permalink":"/trading-blog/blog/tags/hola","allTagsPath":"/trading-blog/blog/tags","count":1}')}}]);
